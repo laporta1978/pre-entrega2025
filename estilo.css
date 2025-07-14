@@ -5,7 +5,7 @@
     font-family: 'Open Sans';
 }
 header{
-    background: url(img/banner.jpg);
+    background: url(img/gallery1.jpg);
     background-size: cover;
     background-position:center;
     height: 300px;
@@ -14,7 +14,7 @@ header h1{
     text-align: center;
     font-size: 35px;
     /* background-color: #000; */
-    color: #0e0e0e;
+    color: #eeebeb;
     padding: 30px 0;
 }
 .contenedor{
@@ -69,7 +69,7 @@ header h1{
     display: block;
     margin: 10px auto;
     border: none;
-    background-color: black;
+    background-color: rgb(14, 113, 241);
     color: #fff;
     padding: 5px 15px;
     border-radius: 5px;
@@ -91,7 +91,7 @@ header h1{
     opacity: 0;
 }
 .carrito .header-carrito{
-    background-color: #000;
+    background-color: #1900fc;
     color: #fff;
     text-align: center;
     padding: 30px 0;
@@ -133,7 +133,7 @@ header h1{
     line-height: 32px;
     text-align: center;
     border-radius: 50%;
-    border: 1px solid #000;
+    border: 1px solid #043efd;
     cursor: pointer;
 }
 .carrito .carrito-item .carrito-item-precio{
@@ -179,7 +179,7 @@ header h1{
     display: block;
     width: 100%;
     border: none;
-    background: #000;
+    background: #0933ee;
     color: #fff;
     border-radius: 5px;
     font-size: 18px;
@@ -196,6 +196,7 @@ header h1{
 
 /* SECCION RESPONSIVE */
 @media screen and (max-width: 850px) {
+   
     .contenedor {
       display: block;
     }
