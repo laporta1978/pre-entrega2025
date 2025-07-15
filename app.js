@@ -51,6 +51,7 @@ function pagarClicked(){
     }
     actualizarTotalCarrito();
     ocultarCarrito();
+     window.location.href = "index.html"; // Redirigir a la página principal
 }
 //Funciòn que controla el boton clickeado de agregar al carrito
 function agregarAlCarritoClicked(event){
